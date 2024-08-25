@@ -1,0 +1,63 @@
+@import url('reset.css');
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.food-title {
+    text-align: center;
+    color: rgb(157, 40, 61);
+    font-size: 40px;
+    font-weight: 600;
+    margin: 70px 0 50px;
+}
+
+.wrapper1 {
+    margin-bottom: 70px;
+}
+
+.food-subtitle {
+    text-align: center;
+    color:rgb(229, 50, 50);
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.food-subtitle + .food-info {
+   border-left: 2px solid red;
+   padding-left: 20px;
+}
+
+.food-info p {
+    font-size: 22px;
+    text-align: justify; 
+    line-height: 30px;
+}
+
+.food-image {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.food-part-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.food-part p {
+    text-align: justify;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.food-part-img {
+    margin-bottom: 25px;
+}
+
+.img-right {
+    text-align: right;
+}
